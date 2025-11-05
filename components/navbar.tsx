@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <header className="p-4 bg-white shadow-md">
-      <nav className="flex items-center justify-between max-w-7xl mx-auto">
+    <header className="p-4 bg-sky-500 shadow-md">
+      <nav className="flex items-center justify-between max-w-7xl mask-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image

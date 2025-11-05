@@ -7,10 +7,10 @@ import { events } from "@/lib/constants";
 const Page = () => {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen px-4">
-      <h1 className="text-center text-4xl font-bold">
+      <h1 className=" text-center item-center text-4xl font-semibold">
         DevEvents <br /> Events you can't miss
       </h1>
-      <p className="text-center mt-4 text-lg text-gray-600">
+      <p className="text-center text-3xl mt-4  text-gray-600">
         Hackathons, Meetups — All in one Place
       </p>
       <Explorebtn />
